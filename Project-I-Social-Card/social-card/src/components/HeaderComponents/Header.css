@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.headerTitle {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 5px;
+}
+
+.headerTitle h1 {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+.headerTitle .handle {
+    font-size: .8rem;
+    color: lightgray;
+    margin: 0 5px;
+}
+
+.headerTitle .timeStamp {
+    font-size: .8rem;
+    color: lightgray;
+    margin: 0 5px;
+}
+
+.thumbImg {
+    width: 50px;
+    height: 50px;       
+}
+
+.headerContent p {
+    width: 100%;
+
+}
