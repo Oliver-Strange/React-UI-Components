@@ -1,6 +1,17 @@
 .wholeCalc {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-wrapper {
     width: 400px;
     height: 600px;
-    margin: auto;
-    border: 1px solid black;
+    outline: 1px solid #888;
+}
+
+.row {
+    display: flex;
+    width: 100%;
 }

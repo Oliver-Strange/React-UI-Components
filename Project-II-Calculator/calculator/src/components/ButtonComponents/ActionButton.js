@@ -4,8 +4,9 @@ import './Button.css';
 const ActionButton = props => {
     return(
         <div className="actionButtons">
-            <h1 className="clear">clear</h1>
-            <h1 className="zero">0</h1>
+            <div className="clear-btn">
+                {props.children}
+            </div>
         </div>
     );
 }
